@@ -24,15 +24,15 @@ local UICorner_4 = Instance.new("UICorner")
 local TextLabel_10 = Instance.new("TextLabel")
 local idea = Instance.new("TextButton")
 local UICorner_5 = Instance.new("UICorner")
-local TextButton = Instance.new("TextButton")
+local speed = Instance.new("TextButton")
 local UICorner_6 = Instance.new("UICorner")
-local TextButton_2 = Instance.new("TextButton")
+local jump = Instance.new("TextButton")
 local UICorner_7 = Instance.new("UICorner")
-local TextButton_3 = Instance.new("TextButton")
+local arm = Instance.new("TextButton")
 local UICorner_8 = Instance.new("UICorner")
 local Limb = Instance.new("TextButton")
 local UICorner_9 = Instance.new("UICorner")
-local TextButton_4 = Instance.new("TextButton")
+local leg = Instance.new("TextButton")
 local UICorner_10 = Instance.new("UICorner")
 
 --Properties:
@@ -223,47 +223,50 @@ idea.TextWrapped = true
 UICorner_5.CornerRadius = UDim.new(0, 15)
 UICorner_5.Parent = idea
 
-TextButton.Parent = Frame
-TextButton.BackgroundColor3 = Color3.fromRGB(255, 93, 93)
-TextButton.Position = UDim2.new(0.35154295, 0, 0.226708084, 0)
-TextButton.Size = UDim2.new(0, 323, 0, 26)
-TextButton.Font = Enum.Font.Fantasy
-TextButton.Text = "Need ideas! discord: flippers#9364"
-TextButton.TextColor3 = Color3.fromRGB(0, 0, 0)
-TextButton.TextScaled = true
-TextButton.TextSize = 14.000
-TextButton.TextWrapped = true
+speed.Name = "speed"
+speed.Parent = Frame
+speed.BackgroundColor3 = Color3.fromRGB(255, 93, 93)
+speed.Position = UDim2.new(0.35154295, 0, 0.226708084, 0)
+speed.Size = UDim2.new(0, 323, 0, 26)
+speed.Font = Enum.Font.Fantasy
+speed.Text = "walk faster"
+speed.TextColor3 = Color3.fromRGB(0, 0, 0)
+speed.TextScaled = true
+speed.TextSize = 14.000
+speed.TextWrapped = true
 
 UICorner_6.CornerRadius = UDim.new(0, 15)
-UICorner_6.Parent = TextButton
+UICorner_6.Parent = speed
 
-TextButton_2.Parent = Frame
-TextButton_2.BackgroundColor3 = Color3.fromRGB(255, 93, 93)
-TextButton_2.Position = UDim2.new(0.35154295, 0, 0.342853129, 0)
-TextButton_2.Size = UDim2.new(0, 323, 0, 25)
-TextButton_2.Font = Enum.Font.Fantasy
-TextButton_2.Text = "Need ideas! discord: flippers#9364"
-TextButton_2.TextColor3 = Color3.fromRGB(0, 0, 0)
-TextButton_2.TextScaled = true
-TextButton_2.TextSize = 14.000
-TextButton_2.TextWrapped = true
+jump.Name = "jump"
+jump.Parent = Frame
+jump.BackgroundColor3 = Color3.fromRGB(255, 93, 93)
+jump.Position = UDim2.new(0.35154295, 0, 0.342853129, 0)
+jump.Size = UDim2.new(0, 323, 0, 25)
+jump.Font = Enum.Font.Fantasy
+jump.Text = "jump higher"
+jump.TextColor3 = Color3.fromRGB(0, 0, 0)
+jump.TextScaled = true
+jump.TextSize = 14.000
+jump.TextWrapped = true
 
 UICorner_7.CornerRadius = UDim.new(0, 15)
-UICorner_7.Parent = TextButton_2
+UICorner_7.Parent = jump
 
-TextButton_3.Parent = Frame
-TextButton_3.BackgroundColor3 = Color3.fromRGB(255, 93, 93)
-TextButton_3.Position = UDim2.new(0.35154295, 0, 0.460865557, 0)
-TextButton_3.Size = UDim2.new(0, 323, 0, 25)
-TextButton_3.Font = Enum.Font.Fantasy
-TextButton_3.Text = "Need ideas! discord: flippers#9364"
-TextButton_3.TextColor3 = Color3.fromRGB(0, 0, 0)
-TextButton_3.TextScaled = true
-TextButton_3.TextSize = 14.000
-TextButton_3.TextWrapped = true
+arm.Name = "arm"
+arm.Parent = Frame
+arm.BackgroundColor3 = Color3.fromRGB(255, 93, 93)
+arm.Position = UDim2.new(0.35154295, 0, 0.460865557, 0)
+arm.Size = UDim2.new(0, 323, 0, 25)
+arm.Font = Enum.Font.Fantasy
+arm.Text = "remove arms(R6)"
+arm.TextColor3 = Color3.fromRGB(0, 0, 0)
+arm.TextScaled = true
+arm.TextSize = 14.000
+arm.TextWrapped = true
 
 UICorner_8.CornerRadius = UDim.new(0, 15)
-UICorner_8.Parent = TextButton_3
+UICorner_8.Parent = arm
 
 Limb.Name = "Limb"
 Limb.Parent = Frame
@@ -280,23 +283,24 @@ Limb.TextWrapped = true
 UICorner_9.CornerRadius = UDim.new(0, 15)
 UICorner_9.Parent = Limb
 
-TextButton_4.Parent = Frame
-TextButton_4.BackgroundColor3 = Color3.fromRGB(255, 93, 93)
-TextButton_4.Position = UDim2.new(0.35154295, 0, 0.752791047, 0)
-TextButton_4.Size = UDim2.new(0, 323, 0, 25)
-TextButton_4.Font = Enum.Font.Fantasy
-TextButton_4.Text = "Need ideas! discord: flippers#9364"
-TextButton_4.TextColor3 = Color3.fromRGB(0, 0, 0)
-TextButton_4.TextScaled = true
-TextButton_4.TextSize = 14.000
-TextButton_4.TextWrapped = true
+leg.Name = "leg"
+leg.Parent = Frame
+leg.BackgroundColor3 = Color3.fromRGB(255, 93, 93)
+leg.Position = UDim2.new(0.35154295, 0, 0.752791047, 0)
+leg.Size = UDim2.new(0, 323, 0, 25)
+leg.Font = Enum.Font.Fantasy
+leg.Text = "remove legs(R6)"
+leg.TextColor3 = Color3.fromRGB(0, 0, 0)
+leg.TextScaled = true
+leg.TextSize = 14.000
+leg.TextWrapped = true
 
 UICorner_10.CornerRadius = UDim.new(0, 15)
-UICorner_10.Parent = TextButton_4
+UICorner_10.Parent = leg
 
 -- Scripts:
 
-local function JLRDT_fake_script() -- A.LocalScript 
+local function XLUV_fake_script() -- A.LocalScript 
 	local script = Instance.new('LocalScript', A)
 
 	
@@ -304,8 +308,8 @@ local function JLRDT_fake_script() -- A.LocalScript
 		script.Parent.Parent.Frame.Visible = not script.Parent.Parent.Frame.Visible
 	end)
 end
-coroutine.wrap(JLRDT_fake_script)()
-local function APDOSXJ_fake_script() -- Frame.Smooth GUI Dragging 
+coroutine.wrap(XLUV_fake_script)()
+local function BUEROBL_fake_script() -- Frame.Smooth GUI Dragging 
 	local script = Instance.new('LocalScript', Frame)
 
 	local UserInputService = game:GetService("UserInputService")
@@ -362,36 +366,56 @@ local function APDOSXJ_fake_script() -- Frame.Smooth GUI Dragging
 	
 	runService.Heartbeat:Connect(Update)
 end
-coroutine.wrap(APDOSXJ_fake_script)()
-local function LHFXRR_fake_script() -- idea.LocalScript 
+coroutine.wrap(BUEROBL_fake_script)()
+local function PIBZ_fake_script() -- idea.LocalScript 
 	local script = Instance.new('LocalScript', idea)
 
 	print("Hello world!")
 	
 end
-coroutine.wrap(LHFXRR_fake_script)()
-local function AVEYXTT_fake_script() -- TextButton.LocalScript 
-	local script = Instance.new('LocalScript', TextButton)
+coroutine.wrap(PIBZ_fake_script)()
+local function KFQXQN_fake_script() -- speed.LocalScript 
+	local script = Instance.new('LocalScript', speed)
 
-	print("Hello world!")
+	script.Parent.MouseButton1Click:Connect(function()
+		local a = game.Players.LocalPlayer.Character:WaitForChild("Humanoid")
+		wait(0.01)
+		a.WalkSpeed = 100
+	end)
 	
 end
-coroutine.wrap(AVEYXTT_fake_script)()
-local function SUGAZU_fake_script() -- TextButton_2.LocalScript 
-	local script = Instance.new('LocalScript', TextButton_2)
+coroutine.wrap(KFQXQN_fake_script)()
+local function DHKYIN_fake_script() -- jump.LocalScript 
+	local script = Instance.new('LocalScript', jump)
 
-	print("Hello world!")
+	script.Parent.MouseButton1Click:Connect(function()
+		local a = game.Players.LocalPlayer.Character:WaitForChild("Humanoid")
+		wait(0.01)
+		a.JumpHeight = 25
+	end)
+	
 	
 end
-coroutine.wrap(SUGAZU_fake_script)()
-local function KEYGXM_fake_script() -- TextButton_3.LocalScript 
-	local script = Instance.new('LocalScript', TextButton_3)
+coroutine.wrap(DHKYIN_fake_script)()
+local function UNOA_fake_script() -- arm.LocalScript 
+	local script = Instance.new('LocalScript', arm)
 
-	print("Hello world!")
+	local char = game.Players.LocalPlayer.Character
+	
+	script.Parent.MouseButton1Click:Connect(function()
+		local la = char:WaitForChild("Left Arm")
+		local ra = char:WaitForChild("Right Arm")
+		local ll = char:WaitForChild("Left Leg")
+		local rl = char:WaitForChild("Right Leg")
+		wait(0.01)
+		la:Destroy()
+		ra:Destroy()
+	end)
+	
 	
 end
-coroutine.wrap(KEYGXM_fake_script)()
-local function PBPT_fake_script() -- Limb.LocalScript 
+coroutine.wrap(UNOA_fake_script)()
+local function SVEBBTL_fake_script() -- Limb.LocalScript 
 	local script = Instance.new('LocalScript', Limb)
 
 	local char = game.Players.LocalPlayer.Character
@@ -409,11 +433,21 @@ local function PBPT_fake_script() -- Limb.LocalScript
 	end)
 	
 end
-coroutine.wrap(PBPT_fake_script)()
-local function TEEHX_fake_script() -- TextButton_4.LocalScript 
-	local script = Instance.new('LocalScript', TextButton_4)
+coroutine.wrap(SVEBBTL_fake_script)()
+local function ZQMAUOP_fake_script() -- leg.LocalScript 
+	local script = Instance.new('LocalScript', leg)
 
-	print("Hello world!")
+	local char = game.Players.LocalPlayer.Character
+	
+	script.Parent.MouseButton1Click:Connect(function()
+		local la = char:WaitForChild("Left Arm")
+		local ra = char:WaitForChild("Right Arm")
+		local ll = char:WaitForChild("Left Leg")
+		local rl = char:WaitForChild("Right Leg")
+		wait(0.01)
+		ll:Destroy()
+		rl:Destroy()
+	end)
 	
 end
-coroutine.wrap(TEEHX_fake_script)()
+coroutine.wrap(ZQMAUOP_fake_script)()
