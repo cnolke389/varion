@@ -1,3 +1,4 @@
+
 -- Instances:
 
 local ScreenGui = Instance.new("ScreenGui")
@@ -6,11 +7,9 @@ local UICorner = Instance.new("UICorner")
 local Frame = Instance.new("Frame")
 local UICorner_2 = Instance.new("UICorner")
 local Folder = Instance.new("Folder")
-local TextButton = Instance.new("TextButton")
-local UICorner_3 = Instance.new("UICorner")
 local UIGradient = Instance.new("UIGradient")
 local Frame_2 = Instance.new("Frame")
-local UICorner_4 = Instance.new("UICorner")
+local UICorner_3 = Instance.new("UICorner")
 local TextLabel = Instance.new("TextLabel")
 local TextLabel_2 = Instance.new("TextLabel")
 local TextLabel_3 = Instance.new("TextLabel")
@@ -20,9 +19,21 @@ local TextLabel_6 = Instance.new("TextLabel")
 local TextLabel_7 = Instance.new("TextLabel")
 local TextLabel_8 = Instance.new("TextLabel")
 local TextLabel_9 = Instance.new("TextLabel")
-local TextButton_2 = Instance.new("TextButton")
-local UICorner_5 = Instance.new("UICorner")
+local Close = Instance.new("TextButton")
+local UICorner_4 = Instance.new("UICorner")
 local TextLabel_10 = Instance.new("TextLabel")
+local idea = Instance.new("TextButton")
+local UICorner_5 = Instance.new("UICorner")
+local TextButton = Instance.new("TextButton")
+local UICorner_6 = Instance.new("UICorner")
+local TextButton_2 = Instance.new("TextButton")
+local UICorner_7 = Instance.new("UICorner")
+local TextButton_3 = Instance.new("TextButton")
+local UICorner_8 = Instance.new("UICorner")
+local Limb = Instance.new("TextButton")
+local UICorner_9 = Instance.new("UICorner")
+local TextButton_4 = Instance.new("TextButton")
+local UICorner_10 = Instance.new("UICorner")
 
 --Properties:
 
@@ -41,7 +52,7 @@ UICorner.Parent = A
 
 Frame.Parent = ScreenGui
 Frame.BackgroundColor3 = Color3.fromRGB(255, 93, 93)
-Frame.Position = UDim2.new(0.279788852, 0, 0.18649517, 0)
+Frame.Position = UDim2.new(0.326546013, 0, 0.168810278, 0)
 Frame.Size = UDim2.new(0, 521, 0, 322)
 Frame.Visible = false
 
@@ -49,20 +60,6 @@ UICorner_2.CornerRadius = UDim.new(0, 15)
 UICorner_2.Parent = Frame
 
 Folder.Parent = Frame
-
-TextButton.Parent = Folder
-TextButton.BackgroundColor3 = Color3.fromRGB(255, 93, 93)
-TextButton.Position = UDim2.new(0.391554713, 0, 0.158385098, 0)
-TextButton.Size = UDim2.new(0, 294, 0, 240)
-TextButton.Font = Enum.Font.Fantasy
-TextButton.Text = "Need ideas! discord: flippers#9364"
-TextButton.TextColor3 = Color3.fromRGB(0, 0, 0)
-TextButton.TextScaled = true
-TextButton.TextSize = 14.000
-TextButton.TextWrapped = true
-
-UICorner_3.CornerRadius = UDim.new(0, 15)
-UICorner_3.Parent = TextButton
 
 UIGradient.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(255, 255, 255)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(193, 70, 70))}
 UIGradient.Rotation = 228
@@ -73,8 +70,8 @@ Frame_2.BackgroundColor3 = Color3.fromRGB(255, 93, 93)
 Frame_2.Position = UDim2.new(-0.00160671247, 0, -0.00144797377, 0)
 Frame_2.Size = UDim2.new(0, 177, 0, 322)
 
-UICorner_4.CornerRadius = UDim.new(0, 15)
-UICorner_4.Parent = Frame_2
+UICorner_3.CornerRadius = UDim.new(0, 15)
+UICorner_3.Parent = Frame_2
 
 TextLabel.Parent = Frame_2
 TextLabel.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
@@ -184,19 +181,20 @@ TextLabel_9.TextScaled = true
 TextLabel_9.TextSize = 14.000
 TextLabel_9.TextWrapped = true
 
-TextButton_2.Parent = Frame
-TextButton_2.BackgroundColor3 = Color3.fromRGB(213, 77, 77)
-TextButton_2.Position = UDim2.new(0, 0, -0.00310559012, 0)
-TextButton_2.Size = UDim2.new(0, 37, 0, 38)
-TextButton_2.Font = Enum.Font.SourceSans
-TextButton_2.Text = "x"
-TextButton_2.TextColor3 = Color3.fromRGB(0, 0, 0)
-TextButton_2.TextScaled = true
-TextButton_2.TextSize = 48.000
-TextButton_2.TextWrapped = true
+Close.Name = "Close"
+Close.Parent = Frame
+Close.BackgroundColor3 = Color3.fromRGB(213, 77, 77)
+Close.Position = UDim2.new(0, 0, -0.00310559012, 0)
+Close.Size = UDim2.new(0, 37, 0, 38)
+Close.Font = Enum.Font.SourceSans
+Close.Text = "x"
+Close.TextColor3 = Color3.fromRGB(0, 0, 0)
+Close.TextScaled = true
+Close.TextSize = 48.000
+Close.TextWrapped = true
 
-UICorner_5.CornerRadius = UDim.new(0, 15)
-UICorner_5.Parent = TextButton_2
+UICorner_4.CornerRadius = UDim.new(0, 15)
+UICorner_4.Parent = Close
 
 TextLabel_10.Parent = Frame
 TextLabel_10.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
@@ -210,9 +208,95 @@ TextLabel_10.TextScaled = true
 TextLabel_10.TextSize = 14.000
 TextLabel_10.TextWrapped = true
 
+idea.Name = "idea"
+idea.Parent = Frame
+idea.BackgroundColor3 = Color3.fromRGB(255, 93, 93)
+idea.Position = UDim2.new(0.35154295, 0, 0.0186335407, 0)
+idea.Size = UDim2.new(0, 100, 0, 42)
+idea.Font = Enum.Font.Fantasy
+idea.Text = "Need ideas! discord: flippers#9364"
+idea.TextColor3 = Color3.fromRGB(0, 0, 0)
+idea.TextScaled = true
+idea.TextSize = 14.000
+idea.TextWrapped = true
+
+UICorner_5.CornerRadius = UDim.new(0, 15)
+UICorner_5.Parent = idea
+
+TextButton.Parent = Frame
+TextButton.BackgroundColor3 = Color3.fromRGB(255, 93, 93)
+TextButton.Position = UDim2.new(0.35154295, 0, 0.226708084, 0)
+TextButton.Size = UDim2.new(0, 323, 0, 26)
+TextButton.Font = Enum.Font.Fantasy
+TextButton.Text = "Need ideas! discord: flippers#9364"
+TextButton.TextColor3 = Color3.fromRGB(0, 0, 0)
+TextButton.TextScaled = true
+TextButton.TextSize = 14.000
+TextButton.TextWrapped = true
+
+UICorner_6.CornerRadius = UDim.new(0, 15)
+UICorner_6.Parent = TextButton
+
+TextButton_2.Parent = Frame
+TextButton_2.BackgroundColor3 = Color3.fromRGB(255, 93, 93)
+TextButton_2.Position = UDim2.new(0.35154295, 0, 0.342853129, 0)
+TextButton_2.Size = UDim2.new(0, 323, 0, 25)
+TextButton_2.Font = Enum.Font.Fantasy
+TextButton_2.Text = "Need ideas! discord: flippers#9364"
+TextButton_2.TextColor3 = Color3.fromRGB(0, 0, 0)
+TextButton_2.TextScaled = true
+TextButton_2.TextSize = 14.000
+TextButton_2.TextWrapped = true
+
+UICorner_7.CornerRadius = UDim.new(0, 15)
+UICorner_7.Parent = TextButton_2
+
+TextButton_3.Parent = Frame
+TextButton_3.BackgroundColor3 = Color3.fromRGB(255, 93, 93)
+TextButton_3.Position = UDim2.new(0.35154295, 0, 0.460865557, 0)
+TextButton_3.Size = UDim2.new(0, 323, 0, 25)
+TextButton_3.Font = Enum.Font.Fantasy
+TextButton_3.Text = "Need ideas! discord: flippers#9364"
+TextButton_3.TextColor3 = Color3.fromRGB(0, 0, 0)
+TextButton_3.TextScaled = true
+TextButton_3.TextSize = 14.000
+TextButton_3.TextWrapped = true
+
+UICorner_8.CornerRadius = UDim.new(0, 15)
+UICorner_8.Parent = TextButton_3
+
+Limb.Name = "Limb"
+Limb.Parent = Frame
+Limb.BackgroundColor3 = Color3.fromRGB(255, 93, 93)
+Limb.Position = UDim2.new(0.35154295, 0, 0.600617111, 0)
+Limb.Size = UDim2.new(0, 323, 0, 25)
+Limb.Font = Enum.Font.Fantasy
+Limb.Text = "remove limbs (R6)"
+Limb.TextColor3 = Color3.fromRGB(0, 0, 0)
+Limb.TextScaled = true
+Limb.TextSize = 14.000
+Limb.TextWrapped = true
+
+UICorner_9.CornerRadius = UDim.new(0, 15)
+UICorner_9.Parent = Limb
+
+TextButton_4.Parent = Frame
+TextButton_4.BackgroundColor3 = Color3.fromRGB(255, 93, 93)
+TextButton_4.Position = UDim2.new(0.35154295, 0, 0.752791047, 0)
+TextButton_4.Size = UDim2.new(0, 323, 0, 25)
+TextButton_4.Font = Enum.Font.Fantasy
+TextButton_4.Text = "Need ideas! discord: flippers#9364"
+TextButton_4.TextColor3 = Color3.fromRGB(0, 0, 0)
+TextButton_4.TextScaled = true
+TextButton_4.TextSize = 14.000
+TextButton_4.TextWrapped = true
+
+UICorner_10.CornerRadius = UDim.new(0, 15)
+UICorner_10.Parent = TextButton_4
+
 -- Scripts:
 
-local function WNRSS_fake_script() -- A.LocalScript 
+local function JLRDT_fake_script() -- A.LocalScript 
 	local script = Instance.new('LocalScript', A)
 
 	
@@ -220,8 +304,8 @@ local function WNRSS_fake_script() -- A.LocalScript
 		script.Parent.Parent.Frame.Visible = not script.Parent.Parent.Frame.Visible
 	end)
 end
-coroutine.wrap(WNRSS_fake_script)()
-local function TJCB_fake_script() -- Frame.Smooth GUI Dragging 
+coroutine.wrap(JLRDT_fake_script)()
+local function APDOSXJ_fake_script() -- Frame.Smooth GUI Dragging 
 	local script = Instance.new('LocalScript', Frame)
 
 	local UserInputService = game:GetService("UserInputService")
@@ -278,11 +362,58 @@ local function TJCB_fake_script() -- Frame.Smooth GUI Dragging
 	
 	runService.Heartbeat:Connect(Update)
 end
-coroutine.wrap(TJCB_fake_script)()
-local function KSSMQXA_fake_script() -- TextButton.LocalScript 
+coroutine.wrap(APDOSXJ_fake_script)()
+local function LHFXRR_fake_script() -- idea.LocalScript 
+	local script = Instance.new('LocalScript', idea)
+
+	print("Hello world!")
+	
+end
+coroutine.wrap(LHFXRR_fake_script)()
+local function AVEYXTT_fake_script() -- TextButton.LocalScript 
 	local script = Instance.new('LocalScript', TextButton)
 
 	print("Hello world!")
 	
 end
-coroutine.wrap(KSSMQXA_fake_script)()
+coroutine.wrap(AVEYXTT_fake_script)()
+local function SUGAZU_fake_script() -- TextButton_2.LocalScript 
+	local script = Instance.new('LocalScript', TextButton_2)
+
+	print("Hello world!")
+	
+end
+coroutine.wrap(SUGAZU_fake_script)()
+local function KEYGXM_fake_script() -- TextButton_3.LocalScript 
+	local script = Instance.new('LocalScript', TextButton_3)
+
+	print("Hello world!")
+	
+end
+coroutine.wrap(KEYGXM_fake_script)()
+local function PBPT_fake_script() -- Limb.LocalScript 
+	local script = Instance.new('LocalScript', Limb)
+
+	local char = game.Players.LocalPlayer.Character
+	
+	script.Parent.MouseButton1Click:Connect(function()
+		local la = char:WaitForChild("Left Arm")
+		local ra = char:WaitForChild("Right Arm")
+		local ll = char:WaitForChild("Left Leg")
+		local rl = char:WaitForChild("Right Leg")
+		wait(0.01)
+		la:Destroy()
+		ra:Destroy()
+		ll:Destroy()
+		rl:Destroy()
+	end)
+	
+end
+coroutine.wrap(PBPT_fake_script)()
+local function TEEHX_fake_script() -- TextButton_4.LocalScript 
+	local script = Instance.new('LocalScript', TextButton_4)
+
+	print("Hello world!")
+	
+end
+coroutine.wrap(TEEHX_fake_script)()
